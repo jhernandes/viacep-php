@@ -1,5 +1,5 @@
 {
-    "name": "flyingluscas/viacep-php",
+    "name": "jhernandes/viacep-php",
     "type": "library",
     "description": "ViaCEP PHP SDK",
     "keywords": [
@@ -11,7 +11,7 @@
         "address",
         "enderecos"
     ],
-    "homepage": "https://github.com/flyingluscas/viacep-php",
+    "homepage": "https://github.com/jhernandes/viacep-php",
     "license": "MIT",
     "authors": [
         {
