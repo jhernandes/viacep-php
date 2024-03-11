@@ -73,13 +73,13 @@ class Address
     public function fill(array $attributes)
     {
         if ($attributes) {
-            $this->zipCode = $attributes['cep'];
-            $this->street = $attributes['logradouro'];
-            $this->complement = $attributes['complemento'];
-            $this->neighborhood = $attributes['bairro'];
-            $this->city = $attributes['localidade'];
-            $this->state = $attributes['uf'];
-            $this->ibge = $attributes['ibge'];
+            $this->zipCode = $attributes['cep'] ?? null;
+            $this->street = $attributes['logradouro'] ?? null;
+            $this->complement = $attributes['complemento'] ?? null;
+            $this->neighborhood = $attributes['bairro'] ?? null;
+            $this->city = $attributes['localidade'] ?? null;
+            $this->state = $attributes['uf'] ?? null;
+            $this->ibge = $attributes['ibge'] ?? null;
         }
 
         return $this;
